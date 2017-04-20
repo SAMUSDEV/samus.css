@@ -1,0 +1,56 @@
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,span,button,code,a,form,fieldset,legend,input,textarea,p,blockquote,th,td,tr,fieldset,address,caption,cite,code,dfn,em,strong,th,var,li,caption,th,h1,h2,h3,h4,h5,h6,abbr,acronym,sup,sub,input,textarea,select {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #545454;
+    -webkit-font-smoothing: antialiased;
+    font-smooth: always;
+}
+
+.txt-left       { text-align: left !important; }
+.txt-right      { text-align: right; }
+.txt-center     { text-align: center; }
+.txt-justify    { text-align: justify; }
+
+.txt-normal     { font-weight: normal; }
+.txt-bold       { font-weight: bold; }
+.txt-italic     { font-style: italic; }
+
+.txt-small,     .txt-small *    { font-size: 12px !important; } 
+.txt-normal,    .txt-normal *   { font-size: 13px !important; }
+.txt-large,     .txt-large *    { font-size: 16px !important; }
+.txt-xlarge,    .txt-xlarge *   { font-size: 18px !important; }
+.txt-xxlarge,   .txt-xxlarge *  { font-size: 20px !important; }
+.txt-xxxlarge,  .txt-xxxlarge *  { font-size: 24px !important; }
+.txt-xxxxlarge,  .txt-xxxxlarge *  { font-size: 46px !important; }
+
+.txt-uppercase  { text-transform: uppercase; }
+.txt-lowercase  { text-transform: lowercase; }
+.txt-capitalize { text-transform: capitalize; }
+
+.txt-gray, .txt-gray *              { color: #4f4f4f !important; }
+.txt-gray-light, .txt-gray-light *  { color: #cccccc !important; }
+.txt-white, .txt-white *            { color: #fff !important; }
+.txt-black, .txt-black *            { color: #000 !important;}
+
+strong          { font-weight: bold !important; }
+
+h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: antialiased;
+    font-smooth: always;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 936px) {
+    .mtxt-left       { text-align: left; }
+    .mtxt-right      { text-align: right; }
+    .mtxt-center     { text-align: center; }
+    .mtxt-justify    { text-align: justify; }
+
+    .mtxt-small,     .mtxt-small *    { font-size: 11px !important; } 
+    .mtxt-normal,    .mtxt-normal *   { font-size: 12px !important; }
+    .mtxt-large,     .mtxt-large *    { font-size: 14px !important; }
+    .mtxt-xlarge,    .mtxt-xlarge *   { font-size: 16px !important; }
+    .mtxt-xxlarge,   .mtxt-xxlarge *  { font-size: 18px !important; }
+    .mtxt-xxxlarge,  .mtxt-xxxlarge *  { font-size: 24px !important; }
+
+}

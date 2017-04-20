@@ -1,0 +1,22 @@
+.wp-content {
+
+}
+
+.wp-content img.alignleft {
+	float: left;
+	margin: 12px 25px 12px 0;
+}
+
+.wp-content img.alignright {
+	float: right;
+	margin: 12px 0px 12px 24px;
+}
+
+.wp-content ul li {
+	list-style: circle !important;
+	padding-top: 6px;
+}
+
+.wp-content ul {
+	margin-left: 30px;
+}

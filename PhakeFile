@@ -1,0 +1,27 @@
+<?php
+
+function build() {
+	$build_file = "build";
+	$build = (int)file_get_contents($build_file);
+	$build ++;
+	file_put_contents($build_file, $build);
+
+	echo "build: ". $build;
+
+	$cmd_minify = "find ./src/ -iname \"*.css\" -exec cat \"{}\" \; > bin/samus.css";
+	shell_exec($cmd_minify);
+
+	//minify
+	$file = file_get_contents("bin/samus.css");
+	$file = str_replace("\n", "", $file);
+	$file = str_replace("\t", "", $file);
+	$file = str_replace("; }", ";}", $file);
+	file_put_contents("bin/samus.min.css", $file);
+
+	//shell_exec("node minify.js");
+
+	echo "\n";
+	echo "\n";
+}
+	
+?>
