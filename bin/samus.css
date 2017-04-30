@@ -57,6 +57,8 @@
 
 .bg-red 		{ background: #a71910; }
 .bg-gray 		{ background: #f2f2f2; }
+.bg-black 		{ background: #000; }
+.bg-white 		{ background: #fff; }
 
 .display-block 		{ display: block; }
 .display-inline 	{ display: inline; }
@@ -293,6 +295,10 @@ input[type="radio"], input[type="checkbox"] {
 @media only screen and (min-width: 320px) and (max-width: 936px) {
 	* {
 
+	}
+
+	.row {
+		width: 100% !important;
 	}
 
 	/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx DEFAULTS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */

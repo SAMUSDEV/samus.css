@@ -7,12 +7,37 @@
 
 	<link rel="stylesheet" type="text/css" href="../bin/samus.css">
 
+	<style type="text/css">
+		div.side {
+			float: left;
+		}
+
+		.row.fluid .row {
+			float: left;
+			clear: none;
+		}
+
+		.col-side {
+			float: left;
+			width: calc((100% - 936px) / 2);
+		}
+	</style>
+
 </head>
 <body>
 
-	<div class="row">
-		<div class="col-6 mcol-6 bg-red">Col 6</div>
-		<div class="col-6 mcol-6 bg-red">Col 6</div>
+	<div class="row fluid">
+		<div class="col-side bg-black txt-white">Side</div>
+		<div class="row">
+			<div class="col-12 bg-red txt-white txt-center">Col 12</div>
+		</div>
+		<div class="col-side bg-black txt-white	">Side</div>
+	</div>
+
+	<div class="row fluid">
+		<div class="col-3 bg-black txt-white txt-center">Col 3</div>
+		<div class="col-6 max mcol-6 bg-red txt-white txt-center">Col 6</div>
+		<div class="col-3 bg-black txt-white txt-center">Col 3</div>
 	</div>
 
 </body>

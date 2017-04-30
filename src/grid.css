@@ -38,6 +38,10 @@
 
 	}
 
+	.row {
+		width: 100% !important;
+	}
+
 	/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx DEFAULTS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 	.col-1 	{ width: 8.33%; }

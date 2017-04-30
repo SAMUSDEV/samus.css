@@ -57,6 +57,8 @@
 
 .bg-red 		{ background: #a71910; }
 .bg-gray 		{ background: #f2f2f2; }
+.bg-black 		{ background: #000; }
+.bg-white 		{ background: #fff; }
 
 .display-block 		{ display: block; }
 .display-inline 	{ display: inline; }
